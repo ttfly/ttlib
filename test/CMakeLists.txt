@@ -1,0 +1,7 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
+SET(LIBSRC_LIST Queue.cpp)
+INCLUDE_DIRECTORIES(/home/gaof/test/ttlib/include)
+SET(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -O0 -Wall -g -ggdb ")
+ADD_EXECUTABLE(queue ${LIBSRC_LIST})
+#LINK_DIRECTORIES(/home/gaof/test/ttlib/build/lib)
+#TARGET_LINK_LIBRARIES(queue tt)
