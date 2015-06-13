@@ -7,6 +7,8 @@
 #include <stdint.h>
 #include <sys/types.h>
 #include <pthread.h>
+#include <time.h>
+
 
 #include "TTCommonError.h"
 
