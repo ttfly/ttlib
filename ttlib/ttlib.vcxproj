@@ -77,6 +77,7 @@
     <ClCompile Include="..\src\TTCircularBuffer.cpp" />
     <ClCompile Include="..\src\TTCommonThread.cpp" />
     <ClCompile Include="..\test\Queue.cpp" />
+    <ClCompile Include="..\test\thread.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
