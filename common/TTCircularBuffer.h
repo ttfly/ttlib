@@ -26,6 +26,8 @@ public:
 
 	uint32_t GetTail(){ return m_nTail; }
 
+	uint32_t GetLength(){ return m_nContentSize; }
+
 	void Reset();
 
 protected:

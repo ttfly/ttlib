@@ -64,20 +64,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\include\TTCircularBuffer.h" />
-    <ClInclude Include="..\include\TTCodeQueue.h" />
-    <ClInclude Include="..\include\TTCommonError.h" />
-    <ClInclude Include="..\include\TTCommonMessageQueue.h" />
-    <ClInclude Include="..\include\TTCommonMutex.h" />
-    <ClInclude Include="..\include\TTCommonThread.h" />
-    <ClInclude Include="..\include\TTGlobal.h" />
-    <ClInclude Include="..\include\TTNocopyable.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\src\TTCircularBuffer.cpp" />
-    <ClCompile Include="..\src\TTCommonThread.cpp" />
+    <ClCompile Include="..\common\TTCircularBuffer.cpp" />
+    <ClCompile Include="..\common\TTCommonThread.cpp" />
+    <ClCompile Include="..\net\TcpSocket.cpp" />
     <ClCompile Include="..\test\Queue.cpp" />
     <ClCompile Include="..\test\thread.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\common\TTCircularBuffer.h" />
+    <ClInclude Include="..\common\TTCodeQueue.h" />
+    <ClInclude Include="..\common\TTCommonError.h" />
+    <ClInclude Include="..\common\TTCommonMessageQueue.h" />
+    <ClInclude Include="..\common\TTCommonMutex.h" />
+    <ClInclude Include="..\common\TTCommonThread.h" />
+    <ClInclude Include="..\common\TTNocopyable.h" />
+    <ClInclude Include="..\include\TTDef.h" />
+    <ClInclude Include="..\include\TTGlobal.h" />
+    <ClInclude Include="..\net\Socket.h" />
+    <ClInclude Include="..\net\TcpSocket.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
